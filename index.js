@@ -1,4 +1,5 @@
 import React from "react"
 import ReactROM from "react-dom"
 
-ReactDOM.render(<h1>Hello world</h1>, document.getElementById("root"))
+// JSX
+ReactDOM.render(<div><h1>Hello world</h1><p>This is a paragraph</p></div>, document.getElementById("root"))
